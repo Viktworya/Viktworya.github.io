@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6733c32e2c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "services">
+    <div class = "container">
+        <nav>
+            <img src="images/logo.png" class = "logo">
+            <ul id="sidemenu">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "services.html">Services</a></li>
+                <li><a href = "portfolio.html">Portfolio</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+ <!------services------>
+
+        <div class = "container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-cat"></i>
+                    <h2>MEOW MEOW</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur eveniet cupiditate doloribus ullam ducimus mollitia aperiam, 
+                        quasi id et fugiat saepe inventore voluptatem, esse dicta. Vitae magnam sed quae?</p>
+                      <a href="#">Learn more</a>  
+                </div>
+                <div>
+                    <i class="fa-solid fa-dog"></i>
+                    <h2>WORF WORF</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur eveniet cupiditate doloribus ullam ducimus mollitia aperiam, 
+                        quasi id et fugiat saepe inventore voluptatem, esse dicta. Vitae magnam sed quae?</p>
+                      <a href="#">Learn more</a>  
+                </div>
+                <div>
+                    <i class="fa-solid fa-person"></i>
+                    <h2>MEEEEEEE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur eveniet cupiditate doloribus ullam ducimus mollitia aperiam, 
+                        quasi id et fugiat saepe inventore voluptatem, esse dicta. Vitae magnam sed quae?</p>
+                      <a href="#">Learn more</a>  
+                </div>
+            </div>
+        </div>
+ </div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+
+            tabcontent.classList.remove("active-tab");
+        }   
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<!-----------javascript for toggle menu--------->
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+
+    sidemenu.style.right = "0";
+
+}
+function closemenu(){
+
+    sidemenu.style.right = "-400px";
+
+}
+
+</script>
+</body>
+</html>
