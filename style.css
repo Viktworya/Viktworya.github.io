@@ -496,7 +496,10 @@ nav .fas{
     
     #header{
         background-image: url(images/try.jpg);
-        font-size: 50px;   
+        background-size: cover;
+        background-position: center;
+        font-size: 50px;
+       
     
     }
     .header-text{
@@ -525,9 +528,9 @@ nav .fas{
     }
 
     nav .fas{
-
         display: block;
         font-size: 45px;
+        cursor: pointer;
     }
     nav ul{
 
@@ -539,7 +542,7 @@ nav .fas{
         height: 200vh;
         padding-top: 80px;
         z-index: 2;
-        transition: right 0.5s;
+        transition: right 0.5s ease-in-out;
     }
 
     nav ul li{
@@ -549,15 +552,15 @@ nav .fas{
     }
 
     nav ul .fas{
-
+        
         position: absolute;
         top: 30px;
         left: 40px;
         cursor: pointer;
     }
     .about-col-1 img{
-
-        margin-top: 200px;
+        margin-top: 300px;
+        margin-left: 300px;
         
     }
     .sub-title{
@@ -573,13 +576,12 @@ nav .fas{
 
     }
     .about-col-1{
-        
         margin-bottom: 10px;
 
     }
 
-    .about-col-2{
 
+    .about-col-2{
         font-size: 30px;
         padding: 0 20px;
     }
