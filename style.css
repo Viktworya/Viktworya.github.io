@@ -26,8 +26,6 @@ body{
 width: 100%;
 height: 100vh;
  /*----background-image: url(images/try.jpg);-------*/
-background-size: cover;
-background-position: center;
 
 }
 .container{
@@ -96,20 +94,13 @@ nav ul li a:hover::after{
 
 /*----about-------*/
 
-#about {
 
-    width: 100%;
-    height: 100%;
-    /*----background-image: url(images/Background.png);-------*/
-    color: #fff;
-
-    }
 
 .sub-title{  /* about title*/
     text-align: center;
 }
 .about-col-2 h1{  /* about title*/
-    color:#3CB371;
+    color:#ffffff;
 }
 
 
@@ -214,9 +205,7 @@ nav ul li a:hover::after{
 
     width: 100%;
     height: 100%;
-    background-image: url(images/try.jpg); 
-    background-size: cover;
-    background-position: center;   
+
     }
 
     .sub-title{
@@ -384,13 +373,7 @@ nav ul li a:hover::after{
 }
 /*----- contact------- */
 
-#contact {
-    background-image: url(images/try.jpg); 
-    background-size: cover;
-    background-position: center;  
 
-    }
-    
 .contact-left{
 
     flex-basis: auto;
@@ -425,7 +408,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 25px;
     margin-right: 15px;
-    color: #ababab;
+    color: #e0e0e0;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -453,7 +436,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background:   #e0e0e0;
     padding: 15px;
     margin: 15px 0;
     color: #ababab;
