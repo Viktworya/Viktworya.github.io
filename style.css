@@ -499,8 +499,6 @@ nav .fas{
         background-size: cover;
         background-position: center;
         font-size: 50px;
-       
-    
     }
     .header-text{
         height: auto;
@@ -509,7 +507,7 @@ nav .fas{
         font-size: 98px;
     }
     .header-text h1{
-    
+        
         margin-top: 90%;
         font-size: 50px;
 
@@ -558,37 +556,56 @@ nav .fas{
         left: 40px;
         cursor: pointer;
     }
+     /*----- about------- */
+
     .about-col-1 img{
         margin-top: 300px;
-        margin-left: 300px;
+        margin-left: 200px;
         
     }
     .sub-title{
 
-        margin-top: 15%;
-        /*----- margin-top: 30%;------- */
-        font-size: 60px;
+        margin-top: 15%;    
+        /*----- margn-top: 30%;------- */
+        font-size: 100px;
         text-align: center;
     }
 
     .about-col-1, .about-col-2{
         flex-basis: 100%;
+        font-size: 100px;
 
     }
     .about-col-1{
         margin-bottom: 10px;
 
     }
+/* Target spans inside the skill section */
+    #skills ul li span,
+    #work-experience ul li span,
+    #internship-experience ul li span,
+    #acad-research ul li span,
+    #education ul li span {
+    font-size: 100px; /* Set the font size to 60px */
+}
 
-
-    .about-col-2{
-        font-size: 30px;
+    .about-col-2{/*----- column for skills------- */
+        font-size: 100px;
         padding: 0 20px;
     }
-    .about-col-2 h1{
-
+    .about-col-2 li{/*----- info of skills------- */
+        font-size: 100px;
         margin-top: 30px;
     }
+
+    .sub-title h1{/*----- title of skills------- */
+        font-size: 100px;
+        margin-top: 30px;
+    }
+
+.about-col-2 h1{
+    font-size: 90px;
+}
     .tab-links{
 
         font-size: 30px;
@@ -604,6 +621,19 @@ nav .fas{
         font-size: 30px;
 
     }
+
+.tab-titles p{
+
+    font-size: 100%;
+}
+
+.tab-contents .social-icons img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: contain;
+  }
+
+
 
     #services{
         width: 100%;
